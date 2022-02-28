@@ -99,3 +99,12 @@
     </tr>
   </tbody>
 </table>
+
+<h1>Best Practices</h1>
+<ul>
+ <li>Uygulamayı küçük parçalara bölün.</li>
+ <li>Action metotlarında business kodu olmamalıdır.</li>
+ <li>Action metotlarının içinde try cache blokları olmamalı. <p>⭐ Hatalar tek bir yerden kontrol edilmelidir.</p></li>
+ <li>Action metotlar içinde kod tekrarından kaçının. <p>⭐ Örnek: ValidationFilter attribute'u kullunmak, id ile gtirme işlemi action metodunda birden fazla yerde çağırılıyorsa, ServiceFilter attribute'u yazılabilir.</p></li>
+ <li>Action metotlarına mode sınıflarımızı dönmemeiz gerekmektedir. DTO sınıfları dönülmelidir. <p>Benim görüşüme göre; belki de şu şekilde değerlendirmemiz gerekmekte, eğer model sınıfını geri döndüğümüzü varsayarsak, dışarıya vt'deki kolon isimlerini geri dönmüş olacağız. Böylelikle, bir güvenlik zafiyeti oluşturmuş olacağız. Bunu önlemek adına DTO snıfları kullanmak daha mantıklı olacaktır. <p></li>
+</ul>
