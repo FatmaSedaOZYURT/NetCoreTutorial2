@@ -53,7 +53,7 @@
     <tr>
       <th scope="col">#</th>
       <th scope="col">Kod</th>
-      <th scope="col">Açıklamaası</th>
+      <th scope="col">Açıklaması</th>
     </tr>
   </thead>
   <tbody>
