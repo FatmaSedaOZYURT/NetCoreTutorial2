@@ -119,3 +119,15 @@ En az 3 katmandan oluşmalıdır.
  <li>API Katmanı</li>
  <li>Web Katmanı</li>
 </ul>
+
+<h1>New Hosting Model in Net 6.0</h1>
+Yeni .Net 6 da yalnızca birkaç satır kod ve bir dosya gereklidir model hosting i yapabilmek için. 6.0 da migration uygulaması yeni küçük hosting modelini kullanmaz. 
+<p>Minimal Hosting Model:</p>
+<ul>
+ <li>Bir uygulama oluşturmak için dosya ve kod satırlarının sayısını önemli ölçüde azaltır.</li>
+ <li>Startup.cs ve Program.cs dosyalarını tek dosyada, Program.cs de birleştirir.</li>
+ <li>Bir uygulama için gereken kodu en aza indirmek için üst düzey ifadeleri kullanır.</li>
+ <li>Gereken kullanım ifadesi satırlarının sayısını ortadan kaldırmak veya en aza indirmek için genel kullanma yönergelerini kullanır.</li>
+</ul>
+ConfigureServices, WebApplication.Services olarak değiştirildi.
+builder.Build(), değişken uygulamaya yapılandırılmış bir WebApplication döndürür. Configure, uygulamayı kullanarak aynı hizmetlere yapılan yapılandırma çağrılarıyla değiştirilir.
