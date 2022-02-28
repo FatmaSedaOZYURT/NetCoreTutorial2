@@ -95,7 +95,7 @@
    <tr>
       <th scope="row">7</th>
       <td>500 Internal Server error</td>
-      <td>Server tarafında hata gerçekleştiği zaman buradan hata dönmelidir. </td>
+      <td>Server tarafında hata gerçekleştiği zaman bu hata kodu dönmelidir. </td>
     </tr>
   </tbody>
 </table>
