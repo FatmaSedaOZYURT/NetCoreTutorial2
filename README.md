@@ -108,3 +108,14 @@
  <li>Action metotlar içinde kod tekrarından kaçının. <p>⭐ Örnek: ValidationFilter attribute'u kullunmak, id ile gtirme işlemi action metodunda birden fazla yerde çağırılıyorsa, ServiceFilter attribute'u yazılabilir.</p></li>
  <li>Action metotlarına mode sınıflarımızı dönmemeiz gerekmektedir. DTO sınıfları dönülmelidir. <p>🌟 Benim görüşüme göre; belki de şu şekilde değerlendirmemiz gerekmekte, eğer model sınıfını geri döndüğümüzü varsayarsak, dışarıya vt'deki kolon isimlerini geri dönmüş olacağız. Böylelikle, bir güvenlik zafiyeti oluşturmuş olacağız. Bunu önlemek adına DTO snıfları kullanmak daha mantıklı olacaktır. <p></li>
 </ul>
+
+<h1>N-Layer Proje Yapısı</h1>
+En az 3 katmandan oluşmalıdır.
+<ul>
+ <li>Core Katmanı <p>Projenin çekirdeğini oluşturmaktadır. Model(Entity), DTO, Repository Interface, Service Interface, UnitOfWork Interfaces</p></li>
+ <li>Repository Katmanı <p>Migration, Seeds, Repository Implementation, UnitOfWork Implementation</p></li>
+ <li>Caching</li>
+ <li>Service Katmanı <p>Bussiness kodları olmalıdır. Mapping, Service Implementation, Validations, Exceptions</p></li>
+ <li>API Katmanı</li>
+ <li>Web Katmanı</li>
+</ul>
