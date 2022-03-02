@@ -137,5 +137,5 @@ builder.Build(), değişken uygulamaya yapılandırılmış bir WebApplication d
 <p> - appsettings.json ve appsettings.Development.json dan "Microsoft.Hosting.Lifetime": "Information" satır kaldrıldı.</p>
 
 <h2>Dikkatli olunması gerekenler</h2>
-<p>⭐ Program.cs, Startup sınıfının yaşama süresini ve somutlaştırmasını kontrol eder.</p>
+<p>⭐ Program.cs,  Startup sınıfının yaşama süresini ve somutlaştırmasını kontrol eder.</p>
 <p>⭐ Configure yöntemine eklenen tüm ek hizmetlerin Program sınıfı tarafından manuel olarak çözülmesi gerekir.</p>
