@@ -131,3 +131,11 @@ Yeni .Net 6 da yalnızca birkaç satır kod ve bir dosya gereklidir model hostin
 </ul>
 ConfigureServices, WebApplication.Services olarak değiştirildi.
 builder.Build(), değişken uygulamaya yapılandırılmış bir WebApplication döndürür. Configure, uygulamayı kullanarak aynı hizmetlere yapılan yapılandırma çağrılarıyla değiştirilir.
+<p>🔔 Web App template inde de bir kaç değişiklik olmuştur.</p>
+<p> - Index.cshtml ve Privacy.cshtml using statement ı kaldırıldı.</p>
+<p> - Error.cshtml de RequestId nullable yapıldı.</p>
+<p> - appsettings.json ve appsettings.Development.json dan "Microsoft.Hosting.Lifetime": "Information" satır kaldrıldı.</p>
+
+<h2>Dikkatli olunması gerekenler</h2>
+<p>⭐ Program.cs, Startup sınıfının yaşama süresini ve somutlaştırmasını kontrol eder.</p>
+<p>⭐ Configure yöntemine eklenen tüm ek hizmetlerin Program sınıfı tarafından manuel olarak çözülmesi gerekir.</p>
