@@ -139,3 +139,10 @@ builder.Build(), değişken uygulamaya yapılandırılmış bir WebApplication d
 <h2>Dikkatli olunması gerekenler</h2>
 <p>⭐ Program.cs,  Startup sınıfının yaşama süresini ve somutlaştırmasını kontrol eder.</p>
 <p>⭐ Configure yöntemine eklenen tüm ek hizmetlerin Program sınıfı tarafından manuel olarak çözülmesi gerekir.</p>
+
+<h1>IUnitOfWork Pattern</h1>
+<p>VT ye yapılacak işlemleri toplu bir şekilde tek bir transaction üzerinden yönetmemizi sağlar.</p>
+<p>SaveChanges() diyene kadar ef bunu memory de tutar.</p>
+Bu metodu kontrol altına alınması lazım. Bunu sağlayacak olan IUnitOfWork sağlayacaktır.
+Eğer Bu pattern olmasaydı; veri kaybı yapılabilirdi. 
+<p>Yapılan herhangi bir hatada, tüm işlemleri geri almayı, transaction yapmayı ef core yapacaktır.</p>
