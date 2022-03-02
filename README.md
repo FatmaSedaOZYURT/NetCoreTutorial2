@@ -108,3 +108,34 @@
  <li>Action metotlar içinde kod tekrarından kaçının. <p>⭐ Örnek: ValidationFilter attribute'u kullunmak, id ile gtirme işlemi action metodunda birden fazla yerde çağırılıyorsa, ServiceFilter attribute'u yazılabilir.</p></li>
  <li>Action metotlarına mode sınıflarımızı dönmemeiz gerekmektedir. DTO sınıfları dönülmelidir. <p>🌟 Benim görüşüme göre; belki de şu şekilde değerlendirmemiz gerekmekte, eğer model sınıfını geri döndüğümüzü varsayarsak, dışarıya vt'deki kolon isimlerini geri dönmüş olacağız. Böylelikle, bir güvenlik zafiyeti oluşturmuş olacağız. Bunu önlemek adına DTO snıfları kullanmak daha mantıklı olacaktır. <p></li>
 </ul>
+
+<h1>N-Layer Proje Yapısı</h1>
+En az 3 katmandan oluşmalıdır.
+<ul>
+ <li>Core Katmanı <p>Projenin çekirdeğini oluşturmaktadır. Model(Entity), DTO, Repository Interface, Service Interface, UnitOfWork Interfaces</p></li>
+ <li>Repository Katmanı <p>Migration, Seeds, Repository Implementation, UnitOfWork Implementation</p></li>
+ <li>Caching</li>
+ <li>Service Katmanı <p>Bussiness kodları olmalıdır. Mapping, Service Implementation, Validations, Exceptions</p></li>
+ <li>API Katmanı</li>
+ <li>Web Katmanı</li>
+</ul>
+
+<h1>New Hosting Model in Net 6.0</h1>
+Yeni .Net 6 da yalnızca birkaç satır kod ve bir dosya gereklidir model hosting i yapabilmek için. 6.0 da migration uygulaması yeni küçük hosting modelini kullanmaz. 
+<p>Minimal Hosting Model:</p>
+<ul>
+ <li>Bir uygulama oluşturmak için dosya ve kod satırlarının sayısını önemli ölçüde azaltır.</li>
+ <li>Startup.cs ve Program.cs dosyalarını tek dosyada, Program.cs de birleştirir.</li>
+ <li>Bir uygulama için gereken kodu en aza indirmek için üst düzey ifadeleri kullanır.</li>
+ <li>Gereken kullanım ifadesi satırlarının sayısını ortadan kaldırmak veya en aza indirmek için genel kullanma yönergelerini kullanır.</li>
+</ul>
+ConfigureServices, WebApplication.Services olarak değiştirildi.
+builder.Build(), değişken uygulamaya yapılandırılmış bir WebApplication döndürür. Configure, uygulamayı kullanarak aynı hizmetlere yapılan yapılandırma çağrılarıyla değiştirilir.
+<p>🔔 Web App template inde de bir kaç değişiklik olmuştur.</p>
+<p> - Index.cshtml ve Privacy.cshtml using statement ı kaldırıldı.</p>
+<p> - Error.cshtml de RequestId nullable yapıldı.</p>
+<p> - appsettings.json ve appsettings.Development.json dan "Microsoft.Hosting.Lifetime": "Information" satır kaldrıldı.</p>
+
+<h2>Dikkatli olunması gerekenler</h2>
+<p>⭐ Program.cs,  Startup sınıfının yaşama süresini ve somutlaştırmasını kontrol eder.</p>
+<p>⭐ Configure yöntemine eklenen tüm ek hizmetlerin Program sınıfı tarafından manuel olarak çözülmesi gerekir.</p>
