@@ -1,15 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "mzfgoHvZ9R6VvFbNqpzfjniX0ceLIgqgkr5uwteLiRL5U0EbZHQUaEt8t+X1kN8Q9iKlCD+lPI5pnYx0TVocaw==",
+  "dgSpecHash": "3Lqgr8DZ4cv7eSr3INgeuhBtywzH9tYcpPdflEHV9rJ2smUMywUyySr1UMxTy2ypy3hsoxKTw4eTxS8bCjGIRw==",
   "success": true,
   "projectFilePath": "C:\\Users\\fseda.ozyurt\\Documents\\GitHub\\NetCoreTutorial2\\NLayer.API\\NLayer.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.2\\microsoft.entityframeworkcore.6.0.2.nupkg.sha512",
     "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.2\\microsoft.entityframeworkcore.abstractions.6.0.2.nupkg.sha512",
     "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.2\\microsoft.entityframeworkcore.analyzers.6.0.2.nupkg.sha512",
+    "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.2\\microsoft.entityframeworkcore.design.6.0.2.nupkg.sha512",
     "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.2\\microsoft.entityframeworkcore.relational.6.0.2.nupkg.sha512",
     "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.2\\microsoft.entityframeworkcore.sqlserver.6.0.2.nupkg.sha512",
     "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
