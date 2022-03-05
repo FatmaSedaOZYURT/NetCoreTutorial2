@@ -146,3 +146,6 @@ builder.Build(), değişken uygulamaya yapılandırılmış bir WebApplication d
 Bu metodu kontrol altına alınması lazım. Bunu sağlayacak olan IUnitOfWork sağlayacaktır.
 Eğer Bu pattern olmasaydı; veri kaybı yapılabilirdi. 
 <p>Yapılan herhangi bir hatada, tüm işlemleri geri almayı, transaction yapmayı ef core yapacaktır.</p>
+
+<h2>☄️ DTO Classes</h2>
+<p>DTO sınıfları, Core katmanında yazılmalıdır. Çünkü, Core katmanı tüm katmalarda var ve DTO'lar da tüm katmanlarda kullanılmak istenebilir. </p>
