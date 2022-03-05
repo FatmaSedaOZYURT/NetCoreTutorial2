@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "w/nANP0O7JLrG2RC9WRZcxDC4PX9tngxpErF72IU7vEHdP9s+x2aGoQl/nZ+k2fxU1wKFnIsonRqzgnOSnywVw==",
+  "dgSpecHash": "gJ1IPZtPdARcwaw8HpnjdretA/dtAbRAHy6OF3VDjov3vBHgreWo5m7X0gVZELQ2i9qpQ0VbAaVbfVPT4d7/Ew==",
   "success": true,
   "projectFilePath": "C:\\Users\\fseda.ozyurt\\Documents\\GitHub\\NetCoreTutorial2\\NLayer.Web\\NLayer.Web.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.2\\microsoft.entityframeworkcore.6.0.2.nupkg.sha512",
