@@ -157,31 +157,33 @@ Bu projede Fluent Validation kullanılmıştır.
 <a href="https://github.com/FatmaSedaOZYURT/NetCoreTutorial2/blob/main/NLayer.Service/Validations/ProductDtoValidator.cs">Koda Git</a> 
 <br>
 <code>
+ <br>
  public class ProductDtoValidator : AbstractValidator
-    {
+    {<br>
         public ProductDtoValidator()
-        {
+        {<br>
             RuleFor(x => x.Name).NotEmpty().WithMessage("{PropertyName} is required!").NotNull().WithMessage("{PropertyName} is required!");
-
+<br>
             RuleFor(x => x.Price).InclusiveBetween(1, decimal.MaxValue).WithMessage("{PropertyName} must be greater 0!");
             RuleFor(x => x.Stock).InclusiveBetween(1, int.MaxValue).WithMessage("{PropertyName} must be greater 0!");
             RuleFor(x => x.CategoryId).InclusiveBetween(1, int.MaxValue).WithMessage("{PropertyName} must be greater 0!");
         }
-    }
+    }<br>
  </code>
 <br>
  Sonrasında bunu hata mesajlarını kendi özel cevabımızda dönmemiz gerekecektir.
  <br>
- <a href=href="https://github.com/FatmaSedaOZYURT/NetCoreTutorial2/blob/main/NLayer.API/Filters/ValidateFilterAttribute.cs">Koda Git</a>
+ <a href="https://github.com/FatmaSedaOZYURT/NetCoreTutorial2/blob/main/NLayer.API/Filters/ValidateFilterAttribute.cs">Koda Git</a>
  <br>
  <code>
+ <br>
   public class ValidateFilterAttribute : ActionFilterAttribute
-    {
+    {<br>
         public override void OnActionExecuting(ActionExecutingContext context)
-        {
+        {<br><br><br>
             if (!context.ModelState.IsValid)
-            {
-                var errors = context.ModelState.Values.SelectMany(x => x.Errors).Select(x => x.ErrorMessage).ToList();
+            {<br><br>
+                var errors = context.ModelState.Values.SelectMany(x => x.Errors).Select(x => x.ErrorMessage).ToList();<br>
                 context.Result = new BadRequestObjectResult(CustomResponseDto<NoContentDto>.Fail(400, errors));
             }
         }
@@ -191,12 +193,13 @@ Bu projede Fluent Validation kullanılmıştır.
  Yazmış olduğumuz bu özel cevabı Core'a bildirmemiz gerekiyor.
  Program.cs in içine;
   <code>
-   //Validator ü ekliyoruz
+   <br>
+   //Validator ü ekliyoruz<br>
 builder.Services.AddControllers(options => options.Filters.Add(new ValidateFilterAttribute())).AddFluentValidation(x=>x.RegisterValidatorsFromAssemblyContaining<ProductDtoValidator>());
-
-//Filter için kendi özel sınıfımızı yazdık ve bunu bildiirmemiz gerekiyor servisimize eğer bildirmezsek fluent in validation'ını kullanacaktır.
+<br>
+//Filter için kendi özel sınıfımızı yazdık ve bunu bildiirmemiz gerekiyor servisimize eğer bildirmezsek fluent in validation'ını kullanacaktır.<br>
 builder.Services.Configure<ApiBehaviorOptions>(options =>
-{
-    options.SuppressModelStateInvalidFilter = true;
-});
+{<br>
+    options.SuppressModelStateInvalidFilter = true;<br>
+});<br>
   </code>
