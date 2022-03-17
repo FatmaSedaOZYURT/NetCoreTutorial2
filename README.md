@@ -149,3 +149,47 @@ Eğer Bu pattern olmasaydı; veri kaybı yapılabilirdi.
 
 <h2>☄️ DTO Classes</h2>
 <p>DTO sınıfları, Core katmanında yazılmalıdır. Çünkü, Core katmanı tüm katmalarda var ve DTO'lar da tüm katmanlarda kullanılmak istenebilir. </p>
+
+<h1>Özel Validasyon Oluşturma</h1>
+Bu projede Fluent Validation kullanılmıştır.
+Önce, bu validasyona özel sınıfımızı oluşturduk.
+<code href="https://github.com/FatmaSedaOZYURT/NetCoreTutorial2/blob/main/NLayer.Service/Validations/ProductDtoValidator.cs">public class ProductDtoValidator : AbstractValidator<ProductDto>
+    {
+        public ProductDtoValidator()
+        {
+            RuleFor(x => x.Name).NotEmpty().WithMessage("{PropertyName} is required!").NotNull().WithMessage("{PropertyName} is required!");
+
+            RuleFor(x => x.Price).InclusiveBetween(1, decimal.MaxValue).WithMessage("{PropertyName} must be greater 0!");
+            RuleFor(x => x.Stock).InclusiveBetween(1, int.MaxValue).WithMessage("{PropertyName} must be greater 0!");
+            RuleFor(x => x.CategoryId).InclusiveBetween(1, int.MaxValue).WithMessage("{PropertyName} must be greater 0!");
+        }
+    }</code>
+ 
+ Sonrasında bunu hata mesajlarını kendi özel cevabımızda dönmemiz gerekecektir.
+ 
+ <code href="https://github.com/FatmaSedaOZYURT/NetCoreTutorial2/blob/main/NLayer.API/Filters/ValidateFilterAttribute.cs">
+  public class ValidateFilterAttribute : ActionFilterAttribute
+    {
+        public override void OnActionExecuting(ActionExecutingContext context)
+        {
+            if (!context.ModelState.IsValid)
+            {
+                var errors = context.ModelState.Values.SelectMany(x => x.Errors).Select(x => x.ErrorMessage).ToList();
+                context.Result = new BadRequestObjectResult(CustomResponseDto<NoContentDto>.Fail(400, errors));
+            }
+        }
+    }
+ </code>
+  
+ Yazmış olduğumuz bu özel cevabı Core'a bildirmemiz gerekiyor.
+ Program.cs in içine;
+  <code>
+   //Validator ü ekliyoruz
+builder.Services.AddControllers(options => options.Filters.Add(new ValidateFilterAttribute())).AddFluentValidation(x=>x.RegisterValidatorsFromAssemblyContaining<ProductDtoValidator>());
+
+//Filter için kendi özel sınıfımızı yazdık ve bunu bildiirmemiz gerekiyor servisimize eğer bildirmezsek fluent in validation'ını kullanacaktır.
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    options.SuppressModelStateInvalidFilter = true;
+});
+  </code>
