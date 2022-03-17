@@ -173,3 +173,6 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
     options.SuppressModelStateInvalidFilter = true;
 });
   </code>
+
+ <p>⭐ Eğer bir filter'ınız constructor'ında parametre istiyorsa, bunu Program.cs'de belirtmemiz gerekir.</p>
+ <code>builder.Services.AddScoped(typeof(NotFoundFilter<>));</code>
