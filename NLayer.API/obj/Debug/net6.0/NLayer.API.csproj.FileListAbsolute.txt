@@ -67,3 +67,6 @@ C:\Users\fseda.ozyurt\Documents\GitHub\NetCoreTutorial2\NLayer.API\bin\Debug\net
 C:\Users\fseda.ozyurt\Documents\GitHub\NetCoreTutorial2\NLayer.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\fseda.ozyurt\Documents\GitHub\NetCoreTutorial2\NLayer.API\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\fseda.ozyurt\Documents\GitHub\NetCoreTutorial2\NLayer.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\fseda.ozyurt\Documents\GitHub\NetCoreTutorial2\NLayer.API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\fseda.ozyurt\Documents\GitHub\NetCoreTutorial2\NLayer.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\fseda.ozyurt\Documents\GitHub\NetCoreTutorial2\NLayer.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
