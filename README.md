@@ -165,10 +165,8 @@ Bu projede Fluent Validation kullanılmıştır.
  Yazmış olduğumuz bu özel cevabı Core'a bildirmemiz gerekiyor.
  Program.cs in içine;
   <code>
-
    //Validator ü ekliyoruz
 builder.Services.AddControllers(options => options.Filters.Add(new ValidateFilterAttribute())).AddFluentValidation(x=>x.RegisterValidatorsFromAssemblyContaining<ProductDtoValidator>());
-
 //Filter için kendi özel sınıfımızı yazdık ve bunu bildiirmemiz gerekiyor servisimize eğer bildirmezsek fluent in validation'ını kullanacaktır.
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
