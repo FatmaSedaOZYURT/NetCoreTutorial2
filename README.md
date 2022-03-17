@@ -153,7 +153,8 @@ Eğer Bu pattern olmasaydı; veri kaybı yapılabilirdi.
 <h1>Özel Validasyon Oluşturma</h1>
 Bu projede Fluent Validation kullanılmıştır.
 Önce, bu validasyona özel sınıfımızı oluşturduk.
-<code href="https://github.com/FatmaSedaOZYURT/NetCoreTutorial2/blob/main/NLayer.Service/Validations/ProductDtoValidator.cs">public class ProductDtoValidator : AbstractValidator<ProductDto>
+<a href="https://github.com/FatmaSedaOZYURT/NetCoreTutorial2/blob/main/NLayer.Service/Validations/ProductDtoValidator.cs">
+<code>public class ProductDtoValidator : AbstractValidator<ProductDto>
     {
         public ProductDtoValidator()
         {
@@ -164,10 +165,10 @@ Bu projede Fluent Validation kullanılmıştır.
             RuleFor(x => x.CategoryId).InclusiveBetween(1, int.MaxValue).WithMessage("{PropertyName} must be greater 0!");
         }
     }</code>
- 
+ </a> 
  Sonrasında bunu hata mesajlarını kendi özel cevabımızda dönmemiz gerekecektir.
- 
- <code href="https://github.com/FatmaSedaOZYURT/NetCoreTutorial2/blob/main/NLayer.API/Filters/ValidateFilterAttribute.cs">
+ <a href=href="https://github.com/FatmaSedaOZYURT/NetCoreTutorial2/blob/main/NLayer.API/Filters/ValidateFilterAttribute.cs">
+ <code>
   public class ValidateFilterAttribute : ActionFilterAttribute
     {
         public override void OnActionExecuting(ActionExecutingContext context)
@@ -180,7 +181,7 @@ Bu projede Fluent Validation kullanılmıştır.
         }
     }
  </code>
-  
+  </a>
  Yazmış olduğumuz bu özel cevabı Core'a bildirmemiz gerekiyor.
  Program.cs in içine;
   <code>
