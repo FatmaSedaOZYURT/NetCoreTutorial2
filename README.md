@@ -153,8 +153,11 @@ Eğer Bu pattern olmasaydı; veri kaybı yapılabilirdi.
 <h1>Özel Validasyon Oluşturma</h1>
 Bu projede Fluent Validation kullanılmıştır.
 Önce, bu validasyona özel sınıfımızı oluşturduk.
-<button href="https://github.com/FatmaSedaOZYURT/NetCoreTutorial2/blob/main/NLayer.Service/Validations/ProductDtoValidator.cs">Koda Git</button> 
-<code>public class ProductDtoValidator : AbstractValidator
+<br>
+<a href="https://github.com/FatmaSedaOZYURT/NetCoreTutorial2/blob/main/NLayer.Service/Validations/ProductDtoValidator.cs">Koda Git</a> 
+<br>
+<code>
+ public class ProductDtoValidator : AbstractValidator
     {
         public ProductDtoValidator()
         {
@@ -166,9 +169,11 @@ Bu projede Fluent Validation kullanılmıştır.
         }
     }
  </code>
-
+<br>
  Sonrasında bunu hata mesajlarını kendi özel cevabımızda dönmemiz gerekecektir.
- <button href=href="https://github.com/FatmaSedaOZYURT/NetCoreTutorial2/blob/main/NLayer.API/Filters/ValidateFilterAttribute.cs">Koda Git</button>
+ <br>
+ <a href=href="https://github.com/FatmaSedaOZYURT/NetCoreTutorial2/blob/main/NLayer.API/Filters/ValidateFilterAttribute.cs">Koda Git</a>
+ <br>
  <code>
   public class ValidateFilterAttribute : ActionFilterAttribute
     {
