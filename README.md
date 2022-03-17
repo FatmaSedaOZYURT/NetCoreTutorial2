@@ -176,3 +176,6 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
 
  <p>⭐ Eğer bir filter'ınız constructor'ında parametre istiyorsa, bunu Program.cs'de belirtmemiz gerekir.</p>
  <code>builder.Services.AddScoped(typeof(NotFoundFilter<>));</code>
+  <p>Bu filter'ı kullanabilmemiz için attribute şeklinde yazarken, ServiceFilter kullanılmalıdır. Çünkü bizim filter'imiz generic bir yapı ve bir tip istemekte.</p>
+  <p>Örnek: </p>
+  <code>[ServiceFilter(typeof(NotFoundFilter<Product>))]</code>
