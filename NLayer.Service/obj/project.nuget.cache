@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "BkoszKwVNDNPjx5dxcfE1I1XSskxiq2pyLOjYQzzC00/LNiNq2PoJ+GJuzPxIYJvPpzLhMI433ibyznNRqURQQ==",
+  "dgSpecHash": "QShKYA4d00c879zFlC6vbc1G4VV1aR1cS2WYDb8XJbHrBAKEuxgrZQKykZWksELwTzHiXbQzdNfiqumnLbZFWw==",
   "success": true,
   "projectFilePath": "C:\\Users\\fseda.ozyurt\\Documents\\GitHub\\NetCoreTutorial2\\NLayer.Service\\NLayer.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
+    "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.4.0\\fluentvalidation.aspnetcore.10.4.0.nupkg.sha512",
+    "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.4.0\\fluentvalidation.dependencyinjectionextensions.10.4.0.nupkg.sha512",
     "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
