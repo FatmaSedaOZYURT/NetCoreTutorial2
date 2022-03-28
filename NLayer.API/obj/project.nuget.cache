@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1Ihina4SmOc/AYNWJ5KyWtz4vZvgf/uQpwdTZjx95PL8QFrZAlJyijJ0pFpkmIfnVBLC4NFKjxMkWwhp5cnuag==",
+  "dgSpecHash": "exAFkvMUynfx2ipptYQXyqoF0DKq+PDhth93EqDc1J1GaZcAozv5BW/bVUGHkebmX2aPJ5VIAOPs8Q/Dosn8xg==",
   "success": true,
   "projectFilePath": "C:\\Users\\fseda.ozyurt\\Documents\\GitHub\\NetCoreTutorial2\\NLayer.API\\NLayer.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
+    "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
     "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\fseda.ozyurt\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",

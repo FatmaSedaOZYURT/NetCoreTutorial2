@@ -70,3 +70,6 @@ C:\Users\fseda.ozyurt\Documents\GitHub\NetCoreTutorial2\NLayer.API\bin\Debug\net
 C:\Users\fseda.ozyurt\Documents\GitHub\NetCoreTutorial2\NLayer.API\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\fseda.ozyurt\Documents\GitHub\NetCoreTutorial2\NLayer.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\fseda.ozyurt\Documents\GitHub\NetCoreTutorial2\NLayer.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\fseda.ozyurt\Documents\GitHub\NetCoreTutorial2\NLayer.API\bin\Debug\net6.0\libman.json
+C:\Users\fseda.ozyurt\Documents\GitHub\NetCoreTutorial2\NLayer.API\bin\Debug\net6.0\Autofac.dll
+C:\Users\fseda.ozyurt\Documents\GitHub\NetCoreTutorial2\NLayer.API\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
