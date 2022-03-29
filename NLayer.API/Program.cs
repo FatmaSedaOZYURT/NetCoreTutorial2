@@ -29,7 +29,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddAutoMapper(typeof(MapProfile));
 
-
+builder.Services.AddMemoryCache();
 
 //******NotFoundFilter
 builder.Services.AddScoped(typeof(NotFoundFilter<>));
