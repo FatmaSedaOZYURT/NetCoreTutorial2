@@ -1,0 +1,459 @@
+﻿++Solution 'NetCoreTutorial2' ‎(6 of 6 projects)
+i:{00000000-0000-0000-0000-000000000000}:NetCoreTutorial2.sln
+++NLayer.Core
+i:{00000000-0000-0000-0000-000000000000}:NLayer.Core
+i:{7a3ff8a0-b4b8-4d53-aea8-b7ad21a55f86}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\nlayer.core.csproj
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\bin\debug\net6.0\nlayer.core.dll
+++Dependencies
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:>584
+i:{7a3ff8a0-b4b8-4d53-aea8-b7ad21a55f86}:>585
+i:{84b18add-4b08-410d-835c-015504175147}:>587
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:>586
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:>1496
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:>1497
+++Analyzers
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:analyzers
+i:{7a3ff8a0-b4b8-4d53-aea8-b7ad21a55f86}:analyzers
+i:{84b18add-4b08-410d-835c-015504175147}:analyzers
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:analyzers
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:analyzers
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:analyzers
+++Frameworks
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:frameworks
+i:{7a3ff8a0-b4b8-4d53-aea8-b7ad21a55f86}:frameworks
+i:{84b18add-4b08-410d-835c-015504175147}:frameworks
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:frameworks
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:frameworks
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:frameworks
+++DTOs
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\dtos\
+++BaseDto.cs
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\dtos\basedto.cs
+++CategoryDto.cs
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\dtos\categorydto.cs
+++CategoryWithProductsDto.cs
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\dtos\categorywithproductsdto.cs
+++CustomResponseDto.cs
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\dtos\customresponsedto.cs
+++NoContentDto.cs
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\dtos\nocontentdto.cs
+++ProductDto.cs
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\dtos\productdto.cs
+++ProductFeatureDto.cs
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\dtos\productfeaturedto.cs
+++ProductUpdateDto.cs
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\dtos\productupdatedto.cs
+++ProductWithCategoryDto.cs
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\dtos\productwithcategorydto.cs
+++Models
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\models\
+++BaseEntity.cs
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\models\baseentity.cs
+++Category.cs
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\models\category.cs
+++Product.cs
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\models\product.cs
+++ProductFeature.cs
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\models\productfeature.cs
+++Repositories
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\repositories\
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.repository\repositories\
+++ICategoryRepository.cs
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\repositories\icategoryrepository.cs
+++IGenericRepository.cs
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\repositories\igenericrepository.cs
+++IProductRepository.cs
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\repositories\iproductrepository.cs
+++Services
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\services\
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.service\services\
+++ICategoryService.cs
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\services\icategoryservice.cs
+++IProductService.cs
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\services\iproductservice.cs
+++IService.cs
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\services\iservice.cs
+++UnitOfWorks
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\unitofworks\
+++IUnitOfWork.cs
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\unitofworks\iunitofwork.cs
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{7a3ff8a0-b4b8-4d53-aea8-b7ad21a55f86}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{84b18add-4b08-410d-835c-015504175147}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{7a3ff8a0-b4b8-4d53-aea8-b7ad21a55f86}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{84b18add-4b08-410d-835c-015504175147}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++System.Text.Json.SourceGeneration
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{7a3ff8a0-b4b8-4d53-aea8-b7ad21a55f86}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{84b18add-4b08-410d-835c-015504175147}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{b67d56d1-6ae9-4b35-876c-6fcc6c9a68c0}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.core\microsoft.netcore.app
+i:{7a3ff8a0-b4b8-4d53-aea8-b7ad21a55f86}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.caching\microsoft.netcore.app
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.repository\microsoft.netcore.app
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.service\microsoft.netcore.app
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.api\microsoft.netcore.app
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\microsoft.netcore.app
+++NLayer.Caching
+i:{00000000-0000-0000-0000-000000000000}:NLayer.Caching
+++Projects
+i:{7a3ff8a0-b4b8-4d53-aea8-b7ad21a55f86}:projects
+i:{84b18add-4b08-410d-835c-015504175147}:projects
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:projects
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:projects
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:projects
+++ProductServiceWithCaching.cs
+i:{7a3ff8a0-b4b8-4d53-aea8-b7ad21a55f86}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.caching\productservicewithcaching.cs
+++NLayer.Repository
+i:{00000000-0000-0000-0000-000000000000}:NLayer.Repository
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.repository\bin\debug\net6.0\nlayer.repository.dll
+++Configurations
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.repository\configurations\
+++Migrations
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.repository\migrations\
+++CategoryRepository.cs
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.repository\repositories\categoryrepository.cs
+++GenericRepository.cs
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.repository\repositories\genericrepository.cs
+++ProductRepository.cs
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.repository\repositories\productrepository.cs
+++Seeds
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.repository\seeds\
+++CategorySeed.cs
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.repository\seeds\categoryseed.cs
+++ProductSeed.cs
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.repository\seeds\productseed.cs
+++UnitOfWork
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.repository\unitofwork\
+++UnitOfWork.cs
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.repository\unitofwork\unitofwork.cs
+++AppDbContext.cs
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.repository\appdbcontext.cs
+++Packages
+i:{84b18add-4b08-410d-835c-015504175147}:packages
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:packages
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:packages
+i:{7a3ff8a0-b4b8-4d53-aea8-b7ad21a55f86}:packages
+++CategoryConfiguration.cs
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.repository\configurations\categoryconfiguration.cs
+++ProductConfiguration.cs
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.repository\configurations\productconfiguration.cs
+++ProductFeatureConfiguration.cs
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.repository\configurations\productfeatureconfiguration.cs
+++20220303113803_initial.cs
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.repository\migrations\20220303113803_initial.cs
+++AppDbContextModelSnapshot.cs
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.repository\migrations\appdbcontextmodelsnapshot.cs
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:c:\users\fseda.ozyurt\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.EntityFrameworkCore (6.0.2)
+i:{84b18add-4b08-410d-835c-015504175147}:>1556
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
+i:{84b18add-4b08-410d-835c-015504175147}:>1560
+++Microsoft.EntityFrameworkCore.Tools (6.0.2)
+i:{84b18add-4b08-410d-835c-015504175147}:>1564
+++20220303113803_initial.Designer.cs
+i:{84b18add-4b08-410d-835c-015504175147}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.repository\migrations\20220303113803_initial.designer.cs
+++NLayer.Service
+i:{00000000-0000-0000-0000-000000000000}:NLayer.Service
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.service\bin\debug\net6.0\nlayer.service.dll
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.service\bin\debug\net6.0\nlayer.service.dll
+++Exceptions
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.service\exceptions\
+++Mapping
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.service\mapping\
+++MapProfile.cs
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.service\mapping\mapprofile.cs
+++CategoryService.cs
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.service\services\categoryservice.cs
+++ProductService.cs
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.service\services\productservice.cs
+++Service.cs
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.service\services\service.cs
+++Validations
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.service\validations\
+++ClientSideException.cs
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.service\exceptions\clientsideexception.cs
+++NotFoundException.cs
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.service\exceptions\notfoundexception.cs
+++ProductDtoValidator.cs
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.service\validations\productdtovalidator.cs
+++Microsoft.AspNetCore.App.Analyzers
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:>1577
+++FluentValidation.AspNetCore (10.4.0)
+i:{846358cf-9c20-4a89-b897-ce9dd077a2a7}:>1579
+++NLayer.API
+i:{00000000-0000-0000-0000-000000000000}:NLayer.API
+++Connected Services 
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:>1498
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:>1499
+++Properties
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.api\properties\
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\properties\
+++Controllers
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.api\controllers\
+++Filters
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.api\filters\
+++MiddleWares
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.api\middlewares\
+++Modules
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.api\modules\
+++RepoServiceModule.cs
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.api\modules\reposervicemodule.cs
+++appsettings.json
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.api\appsettings.json
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\appsettings.json
+++libman.json
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.api\libman.json
+++Program.cs
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.api\program.cs
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\program.cs
+++WeatherForecast.cs
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.api\weatherforecast.cs
+++No service dependencies discovered
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:>1500
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:>1501
+++launchSettings.json
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.api\properties\launchsettings.json
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\properties\launchsettings.json
+++CategoriesController.cs
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.api\controllers\categoriescontroller.cs
+++CustomBaseController.cs
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.api\controllers\custombasecontroller.cs
+++ProductsController.cs
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.api\controllers\productscontroller.cs
+++WeatherForecastController.cs
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.api\controllers\weatherforecastcontroller.cs
+++NotFoundFilter.cs
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.api\filters\notfoundfilter.cs
+++ValidateFilterAttribute.cs
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.api\filters\validatefilterattribute.cs
+++UseCustomExceptionHandler.cs
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.api\middlewares\usecustomexceptionhandler.cs
+++appsettings.Development.json
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.api\appsettings.development.json
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.api\microsoft.aspnetcore.app
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\microsoft.aspnetcore.app
+++Autofac.Extensions.DependencyInjection (7.2.0)
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:>1567
+++Microsoft.EntityFrameworkCore.Design (6.0.2)
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:>1569
+++Swashbuckle.AspNetCore (6.2.3)
+i:{3821174a-1905-4e1c-a0df-9eb28d42ff1d}:>1570
+++NLayer.Web
+i:{00000000-0000-0000-0000-000000000000}:NLayer.Web
+++wwwroot
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\
+++Pages
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\pages\
+++css
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\css\
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\
+++js
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\js\
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\
+++favicon.ico
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\favicon.ico
+++Shared
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\pages\shared\
+++_ViewImports.cshtml
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\pages\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\pages\_viewstart.cshtml
+++Error.cshtml
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\pages\error.cshtml
+++Index.cshtml
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\pages\index.cshtml
+++Privacy.cshtml
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\pages\privacy.cshtml
+++site.css
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\css\site.css
+++site.js
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\js\site.js
+++bootstrap
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\
+++jquery
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\jquery\
+++jquery-validation
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\jquery-validation-unobtrusive\
+++_Layout.cshtml
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\pages\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\pages\shared\_validationscriptspartial.cshtml
+++Error.cshtml.cs
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\pages\error.cshtml.cs
+++Index.cshtml.cs
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\pages\index.cshtml.cs
+++Privacy.cshtml.cs
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\pages\privacy.cshtml.cs
+++dist
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\jquery\dist\
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\jquery\license.txt
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++_Layout.cshtml.css
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\pages\shared\_layout.cshtml.css
+++jquery.js
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.rtl.css
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.bundle.js
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.esm.js.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.rtl.min.css.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{91a14554-3c74-4452-b6ed-94cf87693231}:c:\users\fseda.ozyurt\documents\github\netcoretutorial2\nlayer.web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++AutoMapper (11.0.1)
+i:{7a3ff8a0-b4b8-4d53-aea8-b7ad21a55f86}:>1588
+++Microsoft.Extensions.Caching.Abstractions (6.0.0)
+i:{7a3ff8a0-b4b8-4d53-aea8-b7ad21a55f86}:>1589
