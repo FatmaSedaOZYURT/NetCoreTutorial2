@@ -32,9 +32,9 @@ namespace NLayer.API.Modules
 
             //direkt NLayer.Service olarak da vewrebiliriz fakat tip güvenirliği şeklinde gitmemiz daha doğru olacaktır.
             var serviceAssembly = Assembly.GetAssembly(typeof(MapProfile));
-            
+
             //sonu repository ile biten class'ları ve buna eş gelen interfaceleri al.
-            builder.RegisterAssemblyTypes(apiAssembly, repoAssembly, serviceAssembly).Where(a=>a.Name.EndsWith("Repository")).AsImplementedInterfaces().InstancePerLifetimeScope();
+            builder.RegisterAssemblyTypes(apiAssembly, repoAssembly, serviceAssembly).Where(a => a.Name.EndsWith("Repository")).AsImplementedInterfaces().InstancePerLifetimeScope();
 
             //InstancePerLifetimeScope => Scope - Bir instance başladı bitene kadar aynı instance kullanılsın diyoruz
             //InstancePerDependency => transient - Her seferinde yeni bir instance oluşturması

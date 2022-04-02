@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
 using NLayer.Core;
 using NLayer.Core.DTOs;
@@ -7,12 +6,7 @@ using NLayer.Core.Repositories;
 using NLayer.Core.Services;
 using NLayer.Core.UnitOfWorks;
 using NLayer.Service.Exceptions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NLayer.Caching
 {
@@ -39,7 +33,7 @@ namespace NLayer.Caching
 
         public async Task<Product> AddAsync(Product entity)
         {
-            await _repository.AddAsync(entity); 
+            await _repository.AddAsync(entity);
             await _unitOfWork.CommitAsync();
             await CacheAllProductsAsync();
             return entity;

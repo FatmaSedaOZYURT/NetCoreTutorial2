@@ -11,7 +11,7 @@ namespace NLayer.API.MiddleWares
         {
             app.UseExceptionHandler(config =>
             {
-                config.Run(async context => 
+                config.Run(async context =>
                 {
                     context.Response.ContentType = "application/json";
                     var exceptionFeature = context.Features.Get<IExceptionHandlerFeature>();

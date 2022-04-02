@@ -15,7 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 //Validator ü ekliyoruz
-builder.Services.AddControllers(options => options.Filters.Add(new ValidateFilterAttribute())).AddFluentValidation(x=>x.RegisterValidatorsFromAssemblyContaining<ProductDtoValidator>());
+builder.Services.AddControllers(options => options.Filters.Add(new ValidateFilterAttribute())).AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<ProductDtoValidator>());
 
 //Filter için kendi özel sınıfımızı yazdık ve bunu bildiirmemiz gerekiyor servisimize eğer bildirmezsek fluent in validation'ını kullanacaktır.
 builder.Services.Configure<ApiBehaviorOptions>(options =>
@@ -35,8 +35,10 @@ builder.Services.AddMemoryCache();
 builder.Services.AddScoped(typeof(NotFoundFilter<>));
 
 
-builder.Services.AddDbContext<AppDbContext>( x=> {
-    x.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection"), option => {
+builder.Services.AddDbContext<AppDbContext>(x =>
+{
+    x.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection"), option =>
+    {
         option.MigrationsAssembly(Assembly.GetAssembly(typeof(AppDbContext)).GetName().Name);
     });
 });
