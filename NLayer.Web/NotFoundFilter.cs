@@ -8,6 +8,7 @@ namespace NLayer.Web
 {
     public class NotFoundFilter<T> : IAsyncActionFilter where T : BaseEntity
     {
+
         private readonly IService<T> _service;
 
         public NotFoundFilter(IService<T> service)
@@ -19,7 +20,6 @@ namespace NLayer.Web
         {
             var idValue = context.ActionArguments.Values.FirstOrDefault();
 
-            //Bir id yoksa bakmaya gerek yok devam et ve çıkış yap.
             if (idValue == null)
             {
                 await next.Invoke();
@@ -27,9 +27,9 @@ namespace NLayer.Web
             }
 
             var id = (int)idValue;
-            var entity = await _service.AnyAsync(x => x.Id == id);
+            var anyEntity = await _service.AnyAsync(x => x.Id == id);
 
-            if (entity)
+            if (anyEntity)
             {
                 await next.Invoke();
                 return;
@@ -38,7 +38,10 @@ namespace NLayer.Web
             var errorViewModel = new ErrorViewModel();
             errorViewModel.Errors.Add($"{typeof(T).Name}({id}) not found");
 
+
             context.Result = new RedirectToActionResult("Error", "Home", errorViewModel);
+
+
         }
     }
 }
