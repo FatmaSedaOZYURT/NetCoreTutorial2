@@ -7,6 +7,7 @@ using NLayer.Service.Mapping;
 using NLayer.Service.Validations;
 using NLayer.Web;
 using NLayer.Web.Modules;
+using NLayer.Web.Services;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +15,16 @@ var builder = WebApplication.CreateBuilder(args);
 
 //Filteri ekledik.
 builder.Services.AddScoped(typeof(NotFoundFilter<>));
+
+builder.Services.AddHttpClient<ProductApiService>(opt =>
+{
+    opt.BaseAddress = new Uri(builder.Configuration["BaseUrl"]);
+});
+
+builder.Services.AddHttpClient<CategoryApiService>(opt =>
+{
+    opt.BaseAddress = new Uri(builder.Configuration["BaseUrl"]);
+});
 
 builder.Services.AddAutoMapper(typeof(MapProfile));
 
